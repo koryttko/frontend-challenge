@@ -26,7 +26,7 @@
 	];
 </script>
 
-<section class="flex flex-col gap-12 w-full px-8 md:px-24 py-12 md:py-20">
+<section class="flex flex-col gap-12 w-full px-8 py-12 md:px-20 md:py-24">
 	<div class="flex flex-col gap-4">
 		<h2 class="text-4xl text-gray-900">{headline}</h2>
 		<h5 class="text-lg text-gray-500">

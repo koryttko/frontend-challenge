@@ -12,7 +12,7 @@
 	<p class="text-gray-500">{copyright}</p>
 	<div class="flex flex-row gap-6">
 		{#each socialLinks as socialLink}
-			<img src={socialLink} alt="Social Link" />
+			<a href="/"><img src={socialLink} alt="Social Link" /></a>
 		{/each}
 	</div>
 </footer>

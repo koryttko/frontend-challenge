@@ -1,12 +1,17 @@
-<section class="h-full w-full flex flex-col items-center justify-center gap-10">
-	<h1 class="text-4xl font-bold max-w-4xl px-8">
-		Welcome to your <span class="bg-[#00fe37] px-1">personal Challenge</span> @THE ARC!
-	</h1>
-	<p class="max-w-4xl px-8 text-center">
-		Wir sind froh, dass du dich der Herausforderung stellst und freuen uns auf deine Ergebnisse.
-		<br />
-		Falls du Fragen zur Challenge hast, kannst du dich jederzeit an uns wenden.
-		<br />
-		Dein Startpunkt ist die <code class="bg-dark text-white p-1 rounded">README.md</code>
-	</p>
-</section>
+<script>
+	import IntroductionSection from './../lib/components/sections/IntroductionSection.svelte';
+	import ClientsSection from '$lib/components/sections/ClientsSection.svelte';
+	import FeaturesSection from '$lib/components/sections/FeaturesSection.svelte';
+	import HeroSection from '$lib/components/sections/HeroSection.svelte';
+	import PricingSection from '$lib/components/sections/PricingSection.svelte';
+	import Footer from '$lib/components/navigation/Footer.svelte';
+	import NewsletterSection from '$lib/components/sections/NewsletterSection.svelte';
+</script>
+
+<HeroSection />
+<ClientsSection />
+<IntroductionSection />
+<FeaturesSection />
+<PricingSection />
+<NewsletterSection />
+<Footer />

@@ -13,7 +13,11 @@
 		outlined ? 'bg-white border border-gray-300' : `bg-${bgColor}`
 	}  text-${textColor}`}
 >
-	<div class="flex {iconLeft ? 'flex-row-reverse' : 'flex-row'} gap-3 items-center justify-center">
+	<div
+		class="flex {iconLeft
+			? 'flex-row-reverse'
+			: 'flex-row'} text-nowrap gap-3 items-center justify-center"
+	>
 		{text}
 		{#if hasIcon}
 			<img src={iconUrl} alt="Icon" class="w-5 h-5" />
